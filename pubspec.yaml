@@ -39,6 +39,7 @@ dependencies:
   mapbox_gl: ^0.16.0
   shared_preferences: ^2.0.15
   location: ^4.4.0
+  geolocator: ^9.0.2
 
 dev_dependencies:
   flutter_test:
