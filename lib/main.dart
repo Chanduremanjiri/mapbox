@@ -46,8 +46,9 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.8,
               child: MapboxMap(
+                styleString: "mapbox://styles/divyakekade/cla4ujlh6008b14nuk3uu53lr",
                 accessToken:
-                    "pk.eyJ1Ijoic2FoaWx0aGFrdXIxMjMiLCJhIjoiY2xhMGU3NHJzMDRyOTNxdWFuaDV1Zmp4YyJ9.rexBI6p_yUx7xOEeGKYR1Q",
+                    "pk.eyJ1IjoiZGl2eWFrZWthZGUiLCJhIjoiY2w5dHhqdXV1MGloZjNvbXlyd3Zzc3N3eiJ9.mmZ_tvvhibvDR2ZCPV6fHg",
                 initialCameraPosition: const CameraPosition(target: LatLng(16.8457,74.6015),
                 zoom: 10
               ),
