@@ -41,7 +41,6 @@ dependencies:
   location: ^4.4.0
   geolocator: ^9.0.2
   dio: ^4.0.6
-  flutter_mapbox_navigation: ^0.0.26
 
 dev_dependencies:
   flutter_test:

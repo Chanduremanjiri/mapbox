@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:dio/dio.dart';
-import './turn_by_turn_navigation.dart';
+// import './turn_by_turn_navigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -184,6 +184,16 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             ElevatedButton(onPressed: drawRoute, child: Text(buttonTextRoute)),
+            // ElevatedButton(
+            //     onPressed: () => Navigator.push(context,
+            //         MaterialPageRoute(builder: (_) => const TurnByTurn())),
+            //     style:
+            //         ElevatedButton.styleFrom(padding: const EdgeInsets.all(20)),
+            //     child: Row(
+            //         mainAxisAlignment: MainAxisAlignment.center,
+            //         children: const [
+            //           Text('Start your premier ride now'),
+            //         ]))
             // const TurnByTurn()
 
           ],
