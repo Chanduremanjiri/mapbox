@@ -150,7 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
               height: MediaQuery.of(context).size.height * 0.8,
               child: MapboxMap(
                 styleString:
-                "mapbox://styles/divyakekade/cla4ujlh6008b14nuk3uu53lr",
+                "mapbox://styles/divyakekade/cladf02p4000014plukfkxlvo",
                 accessToken:
                 "pk.eyJ1IjoiZGl2eWFrZWthZGUiLCJhIjoiY2w5dHhqdXV1MGloZjNvbXlyd3Zzc3N3eiJ9.mmZ_tvvhibvDR2ZCPV6fHg",
                 initialCameraPosition: const CameraPosition(

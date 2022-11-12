@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widgets/appbar.dart';
+import 'package:mapboxtrial/widgets/appbar_with_menu.dart';
 import '../widgets/button.dart';
 
 class HomePage extends StatelessWidget {
@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          MyAppBar(),
+          const AppbarWithMenu(),
           Button(buttonText: 'Press', onTap: (){print("Hello");}, height: 20, width: 50, fontSize: 16)
         ],
       ),
